@@ -1,34 +1,21 @@
-/**
- * makecode BME280 digital pressure and humidity sensor Package.
- * From microbit/micropython Chinese community.
- * http://www.micropython.org.cn
- */
-
 enum BME280_I2C_ADDRESS {
     //% block="0x76"
     ADDR_0x76 = 0x76,
     //% block="0x77"
     ADDR_0x77 = 0x77
 }
-
 enum BME280_T {
     //% block="C"
     T_C = 0,
     //% block="F"
     T_F = 1
 }
-
 enum BME280_P {
     //% block="Pa"
     Pa = 0,
     //% block="hPa"
     hPa = 1
 }
-
-/**
- * BME280 block
- */
-//% weight=100 color=#70c0f0 icon="\uf042" block="BME280"
 namespace BME280 {
     let BME280_I2C_ADDR = BME280_I2C_ADDRESS.ADDR_0x76
 
