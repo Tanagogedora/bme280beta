@@ -103,9 +103,9 @@ namespace BME280 {
     }
 
     /**
-     * get pressure
+     * get pressure　気圧取得
      */
-    //% blockId="BME280_GET_PRESSURE" block="pressure %u"
+    //% blockId="BME280_GET_PRESSURE" block="気圧 %u"
     //% weight=80 blockGap=8
     export function pressure(u: BME280_P): number {
         get();
@@ -114,9 +114,9 @@ namespace BME280 {
     }
 
     /**
-     * get temperature
+     * get temperature　気温取得
      */
-    //% blockId="BME280_GET_TEMPERATURE" block="temperature %u"
+    //% blockId="BME280_GET_TEMPERATURE" block="気温 %u"
     //% weight=80 blockGap=8
     export function temperature(u: BME280_T): number {
         get();
@@ -125,9 +125,9 @@ namespace BME280 {
     }
 
     /**
-     * get humidity
+     * get humidity　湿度取得
      */
-    //% blockId="BME280_GET_HUMIDITY" block="humidity"
+    //% blockId="BME280_GET_HUMIDITY" block="湿度"
     //% weight=80 blockGap=8
     export function humidity(): number {
         get();
@@ -135,27 +135,27 @@ namespace BME280 {
     }
 
     /**
-     * power on
+     * power on　センサー起動
      */
-    //% blockId="BME280_POWER_ON" block="Power On"
+    //% blockId="BME280_POWER_ON" block="センサー起動"
     //% weight=22 blockGap=8
     export function PowerOn() {
         setreg(0xF4, 0x2F)
     }
 
     /**
-     * power off
+     * power off　センサー停止
      */
-    //% blockId="BME280_POWER_OFF" block="Power Off"
+    //% blockId="BME280_POWER_OFF" block="センサー停止"
     //% weight=21 blockGap=8
     export function PowerOff() {
         setreg(0xF4, 0)
     }
 
     /**
-     * Calculate Dewpoint
+     * Calculate Dewpoint　露点計算
      */
-    //% block="Dewpoint"
+    //% block="露点"
     //% weight=60 blockGap=8
     export function Dewpoint(): number {
         get();
@@ -163,9 +163,9 @@ namespace BME280 {
     }
 
     /**
-     * Pressure below Event
+     * Pressure below Event　気圧が指定値よりも低い時のイベント
      */
-    //% block="Pressure below than %dat" dat.defl=100000
+    //% block="気圧が %dat　よりも低い時" dat.defl=100000
     export function PressureBelowThan(dat: number, body: () => void): void {
         control.inBackground(function () {
             while (true) {
@@ -179,9 +179,9 @@ namespace BME280 {
     }
 
     /**
-     * Pressure higher Event
+     * Pressure higher Event　気圧が指定値よりも高い時のイベント
      */
-    //% block="Pressure higher than %dat" dat.defl=100000
+    //% block="気圧が %dat　よりも高い時" dat.defl=100000
     export function PressureHigherThan(dat: number, body: () => void): void {
         control.inBackground(function () {
             while (true) {
@@ -195,9 +195,9 @@ namespace BME280 {
     }
 
     /**
-     * humidity below Event
+     * humidity below Event　湿度が指定値よりも低い時のイベント
      */
-    //% block="Humidity below than %dat" dat.defl=10
+    //% block="Hu湿度が %dat　よりも低い時" dat.defl=10
     export function HumidityBelowThan(dat: number, body: () => void): void {
         control.inBackground(function () {
             while (true) {
@@ -211,9 +211,9 @@ namespace BME280 {
     }
 
     /**
-     * humidity higher Event
+     * humidity higher Event　湿度が　指定値よりも高い時のイベント
      */
-    //% block="Humidity higher than %dat" dat.defl=50
+    //% block="湿度が %dat　よりも高い時" dat.defl=50
     export function HumidityHigherThan(dat: number, body: () => void): void {
         control.inBackground(function () {
             while (true) {
@@ -227,9 +227,9 @@ namespace BME280 {
     }
 
     /**
-     * temperature below Event
+     * temperature below Event　気温が指定値よりも低い時のイベント
      */
-    //% block="Temperature below than %dat" dat.defl=10
+    //% block="気温が %dat　よりも低い時" dat.defl=10
     export function TemperatureBelowThan(dat: number, body: () => void): void {
         control.inBackground(function () {
             while (true) {
@@ -243,9 +243,9 @@ namespace BME280 {
     }
 
     /**
-     * temperature higher Event
+     * temperature higher Event　気温が指定値よりも高い時のイベント
      */
-    //% block="Temperature higher than %dat" dat.defl=30
+    //% block="気温が %dat　よりも高い時" dat.defl=30
     export function TemperatureHigherThan(dat: number, body: () => void): void {
         control.inBackground(function () {
             while (true) {
@@ -259,9 +259,9 @@ namespace BME280 {
     }
 
     /**
-     * set I2C address
+     * set I2C address　I2Cアドレスの指定
      */
-    //% blockId="BME280_SET_ADDRESS" block="set address %addr"
+    //% blockId="BME280_SET_ADDRESS" block="I2Cアドレス %addr"
     //% weight=20 blockGap=8
     export function Address(addr: BME280_I2C_ADDRESS) {
         BME280_I2C_ADDR = addr
