@@ -1,7 +1,7 @@
-MIT　Copyright (c) 2018, microbit/micropython Chinese communit
+MIT License
 
-This extension is a modification of the publicly available BME280.
-2025 Tanagogedora
+Originally Copyright (c) 2018, microbit/micropython Chinese community  
+Modified for MakeCode by Tanagotti, 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
