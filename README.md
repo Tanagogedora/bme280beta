@@ -1,5 +1,5 @@
 
-> 🔗 デモページを見る: [https://tanagogedora.github.io/bme280beta/](https://tanagogedora.github.io/bmp280betaVrJP/)
+> 🔗 デモページを見る: [https://tanagogedora.github.io/bme280beta/](https://tanagogedora.github.io/bme280beta/)
 
 ## 拡張機能として使用
 
