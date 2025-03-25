@@ -10,6 +10,10 @@
 * ギアボタンメニューの中にある **拡張機能** をクリックしてください
 * **https://github.com/tanagogedora/bme280betats** を検索してインポートします。
 
+### 🖼 ブロック例（キャプチャ）
+
+![BMP280 ブロック](https://github.com/Tanagogedora/bme280beta/blob/master/BME280Block.jpeg?raw=true)
+
 ## このプロジェクトを編集します
 
 MakeCode でこのリポジトリを編集します。
