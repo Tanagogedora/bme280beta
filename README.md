@@ -1,6 +1,9 @@
 
 > 🔗 デモページを見る: [https://tanagogedora.github.io/bme280beta/](https://tanagogedora.github.io/bme280beta/)
 
+# micro:bit 用 BMP280 センサー拡張機能
+> ⚠️ **この拡張機能は現在ベータ版です。動作確認中の機能が含まれます。ご使用の際はご注意ください。**
+
 ## 拡張機能として使用
 
 このリポジトリは、MakeCode で **拡張機能** として追加できます。
