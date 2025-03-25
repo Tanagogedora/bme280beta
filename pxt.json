@@ -1,6 +1,6 @@
 {
     "name": "BME280Beta",
-    "description": "ベータ版",
+    "description": "micro:bit用 BME280 気圧・温度・湿度センサー拡張（ベータ版）",
     "icon": "icon.png",
     "dependencies": {
         "core": "*",
