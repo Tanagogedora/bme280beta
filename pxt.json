@@ -1,6 +1,7 @@
 {
     "name": "BME280BetaTS",
     "description": "",
+    "icon": "icon.png",
     "dependencies": {
         "core": "*",
         "radio": "*",
