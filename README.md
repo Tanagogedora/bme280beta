@@ -8,7 +8,7 @@
 * [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
 * **新しいプロジェクト** をクリックしてください
 * ギアボタンメニューの中にある **拡張機能** をクリックしてください
-* **https://github.com/tanagogedora/bme280betats** を検索してインポートします。
+* **https://tanagogedora.github.io/bme280beta/** を検索してインポートします。
 
 ### 🖼 ブロック例
 
@@ -20,7 +20,7 @@ MakeCode でこのリポジトリを編集します。
 
 * [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
 * **読み込む** をクリックし、 **URLから読み込む...** をクリックしてください
-* **https://github.com/tanagogedora/bme280betats** を貼り付けてインポートをクリックしてください
+* **https://tanagogedora.github.io/bme280beta/** を貼り付けてインポートをクリックしてください
 
 #### メタデータ (検索、レンダリングに使用)
 
