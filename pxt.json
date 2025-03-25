@@ -1,6 +1,6 @@
 {
     "name": "BME280Beta",
-    "description": "",
+    "description": "ベータ版",
     "icon": "icon.png",
     "dependencies": {
         "core": "*",
