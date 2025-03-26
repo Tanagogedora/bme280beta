@@ -70,6 +70,15 @@ Sensor values are based on the official BME280 datasheet.
 
 ※ 上記の値は BME280 の公式データシートに基づく参考値です。
 
+## 📝 ライセンス / License
+
+MIT License
+
+© 2025 Tanagotti  
+Based on BME280 code by the microbit/micropython Chinese community (2018)  
+Original: http://www.micropython.org.cn  
+元コード：microbit/micropython Chinese community による BME280 コード（2018年）
+
 #### メタデータ (検索、レンダリングに使用)
 
 * for PXT/microbit
