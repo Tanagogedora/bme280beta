@@ -94,8 +94,8 @@ MIT License
 
 © 2025 Tanagotti  
 Based on BME280 code by the microbit/micropython Chinese community (2018)  
-Original: http://www.micropython.org.cn  
-元コード：microbit/micropython Chinese community による BME280 コード（2018年）
+Original Source: http://www.micropython.org.cn  
+（元コード：microbit/micropython 中国コミュニティによる BME280 実装）
 
 
 #### メタデータ (検索、レンダリングに使用)
