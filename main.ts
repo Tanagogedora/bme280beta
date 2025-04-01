@@ -208,7 +208,7 @@ namespace BME280 {
     /**
      * humidity below Event　湿度が指定値よりも低い時のイベント
      */
-    //% block="Hu湿度が %dat　よりも低い時" dat.defl=10
+    //% block="湿度が %dat　よりも低い時" dat.defl=10
     export function HumidityBelowThan(dat: number, body: () => void): void {
         control.inBackground(function () {
             while (true) {
